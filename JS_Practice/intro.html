@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function showText()
+            {
+                document.getElementById("demo").innerHTML = "Now visible"
+            }
+            function hideText()
+            {
+                document.getElementById("demo").innerHTML = ""
+            }
+        </script>
+        <h2> Welcome to my first website </h2>
+
+        <button type="button" onclick="showText();">
+            click me to show
+        </button>
+        <button type="button" onclick="hideText();">
+            click me to hide
+        </button>
+
+        <p id="demo"></p>
+    </body>
+</html>
