@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <script>
-            function showText()
-            {
-                document.getElementById("demo").innerHTML = "Now visible"
-            }
-            function hideText()
-            {
-                document.getElementById("demo").innerHTML = ""
-            }
-        </script>
+        <script src="intro.js"></script>
+
         <h2> Welcome to my first website </h2>
 
-        <button type="button" onclick="showText();">
-            click me to show
+        <button type="button" onclick="company();">
+            my dream company
         </button>
-        <button type="button" onclick="hideText();">
-            click me to hide
+        <button type="button" onclick="place();">
+            my dream city
         </button>
 
         <p id="demo"></p>
+        <img id="myImage" src="aws.png" style="width: 300px;height: 300px;">
     </body>
 </html>
